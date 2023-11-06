@@ -1,0 +1,28 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 16
+    Latitude Float ;
+    Longitude Float ;
+    Brightness Float ;
+    Scan Float ;
+    Track Float ;
+    Acq_date Date ;
+    Acq_time Char (4) ;
+    Satellite Char (5) ;
+    Instrument Char (5) ;
+    Confidence Decimal (6, 0) ;
+    Version Char (4) ;
+    Bright_t31 Float ;
+    Frp Float ;
+    Daynight Char (1) ;
+    Type Decimal (11, 0) ;
+    roadmap Char (11) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "d2c0af82-c07a-458b-afb5-760b8e6a7531"
+end_metadata
