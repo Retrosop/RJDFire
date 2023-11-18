@@ -1,0 +1,15 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 3
+    Название Char (30) ;
+    Тип Char (45) ;
+    Состояние Char (19) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "f08483a3-99e6-45aa-9b74-9a19ff734458"
+end_metadata
