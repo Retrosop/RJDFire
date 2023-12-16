@@ -4,7 +4,7 @@
 
 Definition Table
   Type NATIVE Charset "WindowsCyrillic"
-  Fields 16
+  Fields 15
     Latitude Float ;
     Longitude Float ;
     Brightness Float ;
@@ -20,7 +20,6 @@ Definition Table
     Frp Float ;
     Daynight Char (1) ;
     Type Decimal (11, 0) ;
-    roadmap Char (11) ;
 begin_metadata
 "\IsReadOnly" = "FALSE"
 "\MapInfo" = ""
