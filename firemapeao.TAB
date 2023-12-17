@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 6
+    Latitude Float ;
+    Longitude Float ;
+    Acq_date Date ;
+    Acq_time Char (4) ;
+    idote Char (40) ;
+    rnas Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "2f46a024-d40f-45cc-a6e5-d005ed74144b"
+end_metadata
